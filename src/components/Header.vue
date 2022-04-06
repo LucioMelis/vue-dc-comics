@@ -30,9 +30,27 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+@import "src/variabili.scss";
 .container-header {
-  width: 70%;
-  margin: auto;
-  background-color: $color-primary;
+  width: $container-principal;
+  margin: $margin-container;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  .container-nav {
+    display: flex;
+    align-items: center;
+    ul {
+      display: flex;
+      column-gap: 20px;
+      li {
+        list-style-type: none;
+        a {
+          text-decoration: none;
+          color: $color-dark;
+        }
+      }
+    }
+  }
 }
 </style>
