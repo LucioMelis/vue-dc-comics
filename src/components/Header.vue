@@ -34,7 +34,7 @@ export default {
 .container-header {
   width: $container-principal;
   margin: $margin-container;
-  padding: 20px 0;
+  padding: 10px 0;
   display: flex;
   justify-content: space-between;
   .container-nav {
@@ -50,10 +50,10 @@ export default {
           text-decoration: none;
           color: $color-dark;
           font-weight: bold;
-          padding-bottom: 60px;
+          padding-bottom: 50px;
           &:hover {
             color: $color-primary;
-            border-bottom: 2px solid $color-primary;
+            border-bottom: 5px solid $color-primary;
           }
         }
       }
