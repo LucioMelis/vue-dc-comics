@@ -34,7 +34,7 @@ export default {
 .container-header {
   width: $container-principal;
   margin: $margin-container;
-  padding-top: 20px;
+  padding: 20px 0;
   display: flex;
   justify-content: space-between;
   .container-nav {
@@ -45,9 +45,16 @@ export default {
       column-gap: 20px;
       li {
         list-style-type: none;
+        cursor: pointer;
         a {
           text-decoration: none;
           color: $color-dark;
+          font-weight: bold;
+          padding-bottom: 60px;
+          &:hover {
+            color: $color-primary;
+            border-bottom: 2px solid $color-primary;
+          }
         }
       }
     }
