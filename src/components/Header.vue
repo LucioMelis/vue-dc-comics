@@ -1,5 +1,25 @@
 <template>
-  <h1>Header</h1>
+  <header>
+    <div class="container-header">
+      <div class="container-header-logo">
+        <img src="../assets/dc-logo.png" alt="Dc-Logo" />
+      </div>
+      <div class="container-nav">
+        <ul>
+          <li><a href="#">CHARACTERS</a></li>
+          <li><a href="#">COMICS</a></li>
+          <li><a href="#">CHARACTERS</a></li>
+          <li><a href="#">CHARACTERS</a></li>
+          <li><a href="#">CHARACTERS</a></li>
+          <li><a href="#">CHARACTERS</a></li>
+          <li><a href="#">CHARACTERS</a></li>
+          <li><a href="#">CHARACTERS</a></li>
+          <li><a href="#">CHARACTERS</a></li>
+          <li><a href="#">CHARACTERS</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
 </template>
 
 <script>
