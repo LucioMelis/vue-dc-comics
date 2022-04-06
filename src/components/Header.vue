@@ -6,8 +6,10 @@
       </div>
       <div class="container-nav">
         <ul>
-          <li><a href="#">CHARACTERS</a></li>
-          <li><a href="#">COMICS</a></li>
+          <li v-for="element in arrayMenu" :key="element">
+            <a href="#">{{ element }}</a>
+          </li>
+          <!-- <li><a href="#">COMICS</a></li>
           <li><a href="#">MOVIES</a></li>
           <li><a href="#">TV</a></li>
           <li><a href="#">GAMES</a></li>
@@ -15,7 +17,7 @@
           <li><a href="#">VIDEO</a></li>
           <li><a href="#">FANS</a></li>
           <li><a href="#">NEWS</a></li>
-          <li><a href="#">SHOP</a></li>
+          <li><a href="#">SHOP</a></li> -->
         </ul>
       </div>
     </div>
@@ -25,6 +27,22 @@
 <script>
 export default {
   name: "Header_DC",
+  data() {
+    return {
+      arrayMenu: [
+        "CHARACTERS",
+        "COMICS",
+        "MOVIES",
+        "TV",
+        "GAMES",
+        "COLLECTIBLES",
+        "VIDEO",
+        "FANS",
+        "NEWS",
+        "SHOP",
+      ],
+    };
+  },
 };
 </script>
 
