@@ -21,6 +21,8 @@ export default {
 </script>
 
 <style lang="scss">
+$color-primary: #0282f9;
+
 * {
   padding: 0;
   margin: 0;
