@@ -1,7 +1,7 @@
 <template>
   <div class="card-fumetto">
-    <img :src="fumetto.thumb" alt="fumetto" />
-    <p>{{ fumetto.series }}</p>
+    <img :src="fumetto_dc.thumb" alt="fumetto" />
+    <p>{{ fumetto_dc.series }}</p>
   </div>
 </template>
 
@@ -9,7 +9,7 @@
 export default {
   name: "SingoloFumetto",
   props: {
-    fumetto: Object,
+    fumetto_dc: Object,
   },
 };
 </script>

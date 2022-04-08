@@ -10,7 +10,7 @@
         <SingoloFumetto
           v-for="(fumetto, index) in fumettiDc"
           :key="index"
-          :fumetto="fumetto"
+          :fumetto_dc="fumetto"
         />
       </div>
       <div class="container-button">
